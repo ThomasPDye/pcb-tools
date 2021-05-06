@@ -16,10 +16,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-try:
-    import cairo
-except ImportError:
-    import cairocffi as cairo
+import cairocffi as cairo
 
 from operator import mul
 import tempfile
